@@ -13,7 +13,7 @@ public void draw()
 public void myFractal(int x, int y, int siz)
 {
 	ellipse(x, y, siz, siz);
-	if(siz < 640)
+	if(siz < 320)
 	{
 		stroke(255);
 		strokeWeight(0);
